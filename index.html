@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La Buena Mesa</title>
+<style>
+:root{--bg:#f7f2e8;--card:#fffdf8;--ink:#2b2a26;--muted:#6d675c;--green:#2f5d46;--ochre:#b8862f;--line:#e4dccb}
+@media (prefers-color-scheme: dark){:root{--bg:#1b1d1a;--card:#232622;--ink:#ece7dc;--muted:#a8a294;--green:#8fc1a3;--ochre:#d9aa55;--line:#3a3d37}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:24px 16px 64px}
+header{text-align:center;margin-bottom:20px}
+.brand{font-family:Georgia,"Times New Roman",serif;font-size:28px;color:var(--green);text-decoration:none}
+.sub{color:var(--muted);font-size:13px;letter-spacing:.08em;text-transform:uppercase;margin-top:2px}
+.rule{width:60px;height:2px;background:var(--ochre);margin:10px auto 0}
+nav.langs{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:18px 0 8px}
+nav.langs a{padding:6px 14px;border:1px solid var(--line);border-radius:999px;color:var(--green);text-decoration:none;background:var(--card);font-size:14px}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-top:22px}
+h1{font-family:Georgia,"Times New Roman",serif;color:var(--green);font-weight:normal;font-size:26px;margin:0 0 4px}
+h2{font-family:Georgia,"Times New Roman",serif;color:var(--green);font-weight:normal;font-size:22px;margin:0 0 4px}
+h3{font-size:16px;margin:22px 0 6px}
+.date{color:var(--muted);font-size:13px;margin:0 0 12px}
+a{color:var(--green)}
+ul,ol{padding-left:22px}
+li{margin:6px 0}
+footer{text-align:center;color:var(--muted);font-size:13px;margin-top:32px}
+footer a{margin:0 6px}
+.docs{display:grid;gap:10px;margin-top:12px}
+.docs a{display:block;padding:12px 16px;border:1px solid var(--line);border-radius:10px;text-decoration:none;background:var(--bg)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<a class="brand" href="./">🍴 La Buena Mesa</a>
+<div class="sub">La Buena Mesa · La Bona Taula · MemoResto · GoodDinner</div>
+<div class="rule"></div>
+</header>
+<section id="es" lang="es"><h1>Tu cuaderno gastronómico</h1><p>Apunta tus comidas en restaurantes, puntúa cada plato y recuerda qué pedir y qué evitar.</p><div class="docs"><a href="privacidad/#es">Política de privacidad</a><a href="condiciones/#es">Condiciones de uso</a><a href="borrar-cuenta/#es">Borrar tu cuenta y tus datos</a></div></section>
+<section id="fr" lang="fr"><h2>Ton carnet gastronomique</h2><p>Note tes repas au restaurant, évalue chaque plat et souviens-toi de quoi commander ou éviter.</p><div class="docs"><a href="privacidad/#fr">Politique de confidentialité</a><a href="condiciones/#fr">Conditions d'utilisation</a><a href="borrar-cuenta/#fr">Supprimer ton compte et tes données</a></div></section>
+<section id="ca" lang="ca"><h2>El teu quadern gastronòmic</h2><p>Apunta els teus àpats als restaurants, puntua cada plat i recorda què demanar i què evitar.</p><div class="docs"><a href="privacidad/#ca">Política de privadesa</a><a href="condiciones/#ca">Condicions d'ús</a><a href="borrar-cuenta/#ca">Esborrar el teu compte i les teves dades</a></div></section>
+<section id="en" lang="en"><h2>Your food notebook</h2><p>Log your restaurant meals, rate every dish and remember what to order and what to avoid.</p><div class="docs"><a href="privacidad/#en">Privacy policy</a><a href="condiciones/#en">Terms of use</a><a href="borrar-cuenta/#en">Delete your account and data</a></div></section>
+
+<footer>
+<a href="./privacidad/">Privacidad</a>·<a href="./condiciones/">Condiciones</a>·<a href="./borrar-cuenta/">Borrar cuenta</a><br>
+contact@memoresto.fr
+</footer>
+</div>
+</body>
+</html>
